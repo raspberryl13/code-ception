@@ -1,0 +1,6 @@
+generate_hello
+generate_hello.exe
+generate_hello.py.cpp
+*.o
+*.pyc
+__pycache__/
