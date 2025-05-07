@@ -1,6 +1,17 @@
+# Generated files from code_ception.py
 generate_hello
-generate_hello.exe
+hello_world.py
 generate_hello.py.cpp
+
+# Platform-specific executables
+*.exe
+
+# C++ compilation artifacts
 *.o
-*.pyc
+
+# Python cache files
 __pycache__/
+*.pyc
+
+# macOS metadata files
+.DS_Store
