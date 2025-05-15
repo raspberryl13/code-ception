@@ -89,6 +89,30 @@ Síu sām 世界!                       | SYOO SUM SAI GAI          | Cantonese 
 こんにちは、世界！                     | KON-NEE-chee-wah SEH-kai  | Japanese Hello World          
 ----------------------------------------------------------------------------------------------------
 ```
+## Optional
+   ```bash
+   python3 code-cobol.py
+   ```
+   or (to install GnuCOBOL)
+   ```bash
+   sudo python3 code-cobol.py
+   ```
+
+### Output
+```plaintext
+GnuCOBOL installed successfully!
+Created hello.cob successfully!
+Compiling hello.cob...
+hello.cob:1: note: free format detected
+    1 > IDENTIFICATION DIVISION.
+    2 | PROGRAM-ID. HelloWorld.
+    3 | PROCEDURE DIVISION.
+<command-line>: warning: "_FORTIFY_SOURCE" redefined
+<command-line>: note: this is the location of the previous definition
+Running hello.cob...
+Hello, World!
+Done! Enjoy your COBOL Hello World!
+```
 
 ## Notes
 - **Unicode**: Greetings include Khmer (លោក), Cantonese (世界), and Japanese (世界). Ensure your terminal supports UTF-8. Windows CMD may struggle with non-ASCII characters.
@@ -104,3 +128,4 @@ MIT License—fork, modify, and spread the code-ception madness!
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Made with 💥 in Lowell, Massachusetts.
+
